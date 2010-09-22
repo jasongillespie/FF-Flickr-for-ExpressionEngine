@@ -145,6 +145,7 @@ class Flickr {
 			$set_url = $ff_flickr->site_settings['option_photourl'] . '/sets/' . $photoset['id'];
 			$set_title = $photoset['title'];
 			$set_count = $photoset['photos'];
+			$set_description = $photoset['description'];
 			$set_id = $photoset['id'];
 			
 			// Replace the template tags
@@ -153,6 +154,7 @@ class Flickr {
 			$template_loop = str_replace('{set_title}', $set_title, $template_loop);
 			$template_loop = str_replace('{set_count}', $set_count, $template_loop);
 			$template_loop = str_replace('{set_id}', $set_id, $template_loop);
+			$template_loop = str_replace('{set_description}', $set_description, $template_loop);
 			
 			$r .= $template_loop;
 		}

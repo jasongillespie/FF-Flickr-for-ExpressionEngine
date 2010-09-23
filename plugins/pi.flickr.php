@@ -1,10 +1,10 @@
 <?php
 
 $plugin_info = array(
-  'pi_name' => 'Flickr - by Digital Wax Works',
+  'pi_name' => 'Flickr - by ee hive',
   'pi_version' =>'1.0.0',
-  'pi_author' =>'Digital Wax Works - Brett DeWoody',
-  'pi_author_url' => 'http://digitalwaxworks.com/expressionengine/flickr',
+  'pi_author' =>'ee hive - Brett DeWoody',
+  'pi_author_url' => 'http://www.ee-hive.com/flickr',
   'pi_description' => 'Provides tags for integrating Flickr into your website',
   'pi_usage' => Flickr::usage()
   );
